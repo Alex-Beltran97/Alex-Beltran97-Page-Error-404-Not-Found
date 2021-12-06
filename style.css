@@ -1,11 +1,24 @@
 * {
 	box-sizing: border-box;
 	font-family: Helvetica;
+	margin: 0;
+}
+
+body{
+	background: GhostWhite;
+}
+
+.header{
+	background: Khaki;
+	margin-bottom: 50px;
+	padding: 15px;
+	color: DarkSlateBlue;
 }
 
 .image{
-	width: 500px;
-	border-radius: 150px;
+	width: 450px;
+	border-radius: 20px;
+	box-shadow: 4px 7px 15px Navy;
 }
 
 .container{
@@ -16,7 +29,7 @@
 }
 
 .items{
-	margin: 50px 0;
+	margin: 50px ;
 }
 
 
@@ -24,5 +37,13 @@ div.info .items.button{
 	width: 150px;
 	border: none;
 	font-size: 19px;
-	margin-left: 11px;
+	background: black;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 5px 4px 15px black;
+}
+
+.info h2{
+	color: DeepSkyBlue;
+	font-weight: bolder;
 }
