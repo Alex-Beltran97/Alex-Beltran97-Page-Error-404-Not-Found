@@ -41,7 +41,7 @@ body{
 }
 
 
-div.info .items.button{
+.items.button{
 	width: 150px;
 	border: none;
 	font-size: 19px;
@@ -49,6 +49,12 @@ div.info .items.button{
 	color: white;
 	border-radius: 10px;
 	box-shadow: 5px 4px 15px black;
+}
+
+.items.button:hover{
+	background: #f0e68c;
+	color: #483d8b;
+	font-weight: bold;
 }
 
 .info h2{
