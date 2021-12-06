@@ -15,10 +15,18 @@ body{
 	color: DarkSlateBlue;
 }
 
+.header h1::selection {
+	color: DodgerBlue;
+}
+
 .image{
 	width: 450px;
 	border-radius: 20px;
 	box-shadow: 4px 7px 15px Navy;
+}
+
+.image::selection{
+	color: DodgerBlue;	
 }
 
 .container{
@@ -47,3 +55,12 @@ div.info .items.button{
 	color: DeepSkyBlue;
 	font-weight: bolder;
 }
+
+.text::selecion{
+	color: DodgerBlue;
+}
+
+.items.prueba::selection{
+	color: DodgerBlue;
+}
+
