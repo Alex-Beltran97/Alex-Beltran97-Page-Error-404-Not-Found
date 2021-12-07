@@ -13,18 +13,19 @@
 		</header>
 		<section class="container text">
 			<figure>
-				<img class="image" src="img/Technical difficulties.jpg" alt="technical-dificulties">
+				<!-- <img v-bind:class="value == true ? 'image':'change'" v-bind:src="img" v-bind:alt="title_error"> -->
+				<img class='image'v-bind:src="img" v-bind:alt="title_error">
 			</figure>
 			<div class="info">
-				<h2 class="items prueba">Opps! Something went Wrong.</h2>
+				<h2 class="items prueba">{{title_error_messages}}</h2>
 
 				<p class="items prueba">The page you are looking for might be removed or is temporaly unavalible.</p>
-				<button class="items button prueba">Back to home page</button>
+				<button v-on:click="prueba" class="items button prueba">Back to home page</button>
 			</div>
 		</section>
 	</main>	
 	<!-- scripts -->
-	<script src="app.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+	<script src="app.js"></script>
 </body>
 </html>

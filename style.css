@@ -25,6 +25,12 @@ body{
 	box-shadow: 4px 7px 15px Navy;
 }
 
+.change{
+	width: 450px;
+	border-radius: 20px;
+	box-shadow: 4px 7px 15px Khaki;
+}
+
 .image::selection{
 	color: DodgerBlue;	
 }
@@ -54,6 +60,12 @@ body{
 .items.button:hover{
 	background: #f0e68c;
 	color: #483d8b;
+	font-weight: bold;
+}
+
+.items.button:active{
+	background: seagreen;
+	color: ghostwhite;
 	font-weight: bold;
 }
 
