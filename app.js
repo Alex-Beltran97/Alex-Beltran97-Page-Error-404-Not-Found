@@ -1,4 +1,4 @@
-new Vue ({
+let app = new Vue ({
 	el:"#app",
 	data(){
 		return{
@@ -7,12 +7,13 @@ new Vue ({
 			error_messages:"The page you are looking for might be removed or is temporaly unavalible.",
 			button_message:"Back to home page",
 			img:"img/Technical difficulties.jpg",
+			value:true
 		}
 	},
 	methods:{
 		prueba(){
 			// this.value = !this.value;
-			alert("holo");
+			this.value = !this.value
 		}
 	}
 })
