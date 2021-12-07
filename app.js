@@ -11,7 +11,7 @@ let app = new Vue ({
 		}
 	},
 	methods:{
-		prueba(){
+		changeColor(){
 			// this.value = !this.value;
 			this.value = !this.value
 		}

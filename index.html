@@ -13,14 +13,13 @@
 		</header>
 		<section class="container text">
 			<figure>
-				<!-- <img v-bind:class="value == true ? 'image':'change'" v-bind:src="img" v-bind:alt="title_error"> -->
 				<img v-bind:class='value == true ? "image":"change"'v-bind:src="img" v-bind:alt="title_error">
 			</figure>
 			<div class="info">
 				<h2 class="items prueba">{{title_error_messages}}</h2>
 
-				<p class="items prueba">The page you are looking for might be removed or is temporaly unavalible.</p>
-				<button v-on:click="prueba" class="items button prueba">Back to home page</button>
+				<p class="items changeColor">The page you are looking for might be removed or is temporaly unavalible.</p>
+				<button v-on:click="changeColor" class="items button prueba">Back to home page</button>
 			</div>
 		</section>
 	</main>	
